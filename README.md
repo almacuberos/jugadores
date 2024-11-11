@@ -40,4 +40,47 @@ cd jugadores
 
 cd pythonProject
 
-venv\
+venv\Scripts\activate
+
+#### Para ejecutar 
+
+streamlit run jugadores.py
+
+### Ejecución en macOS y Linux
+
+#### La primera vez
+
+* Bajar fuentes
+
+git clone https://github.com/almacuberos/jugadores.git
+
+* Crear environment
+
+cd jugadores
+
+cd pythonProject
+
+python -m venv venv
+
+* Activar environment
+
+source venv/bin/activate
+
+* Instalar librerias
+
+pip install -r requirements.txt
+
+#### El resto de las veces 
+
+cd jugadores
+
+cd pythonProject
+
+source venv/bin/activate
+
+#### Para ejecutar 
+
+streamlit run jugadores.py
+
+
+El markdown fue editado con: [Markdown Live Preview](https://markdownlivepreview.com/)

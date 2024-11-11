@@ -2,11 +2,11 @@ import streamlit as st
 import pandas as pd
 
 # Load and display the logo
-logo_path = '.\\imagenes\\PineTools.com_Soluc.png'
+logo_path = './imagenes/PineTools.com_Soluc.png'
 st.image(logo_path, use_column_width=True)
 
 # Load the CSV file from a local path
-csv_file_path = '.\\informacion\\jugadores.csv'
+csv_file_path = './informacion/jugadores.csv'
 df = pd.read_csv(csv_file_path)
 
 # Ensure "Cotización (USD)" column is numeric
